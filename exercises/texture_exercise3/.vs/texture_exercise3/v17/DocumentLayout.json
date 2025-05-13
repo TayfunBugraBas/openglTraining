@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{365D48EA-B633-440A-B67B-12F125469660}|texture_exercise3\\texture_exercise3.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{365D48EA-B633-440A-B67B-12F125469660}|texture_exercise3\\texture_exercise3.vcxproj|solutionrelative:texture_exercise3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365D48EA-B633-440A-B67B-12F125469660}|texture_exercise3\\texture_exercise3.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderV.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{365D48EA-B633-440A-B67B-12F125469660}|texture_exercise3\\texture_exercise3.vcxproj|solutionrelative:texture_exercise3\\ShaderV.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365D48EA-B633-440A-B67B-12F125469660}|texture_exercise3\\texture_exercise3.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderF.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{365D48EA-B633-440A-B67B-12F125469660}|texture_exercise3\\texture_exercise3.vcxproj|solutionrelative:texture_exercise3\\ShaderF.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365D48EA-B633-440A-B67B-12F125469660}|texture_exercise3\\texture_exercise3.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\shaderssss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{365D48EA-B633-440A-B67B-12F125469660}|texture_exercise3\\texture_exercise3.vcxproj|solutionrelative:texture_exercise3\\shaderssss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShaderF.s",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderF.s",
+              "RelativeDocumentMoniker": "texture_exercise3\\ShaderF.s",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderF.s",
+              "RelativeToolTip": "texture_exercise3\\ShaderF.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-02T13:56:22.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShaderV.s",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderV.s",
+              "RelativeDocumentMoniker": "texture_exercise3\\ShaderV.s",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderV.s",
+              "RelativeToolTip": "texture_exercise3\\ShaderV.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-02T13:56:13.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "shaderssss.h",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\shaderssss.h",
+              "RelativeDocumentMoniker": "texture_exercise3\\shaderssss.h",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\shaderssss.h",
+              "RelativeToolTip": "texture_exercise3\\shaderssss.h",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-02T13:31:32.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\main.cpp",
+              "RelativeDocumentMoniker": "texture_exercise3\\main.cpp",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\main.cpp",
+              "RelativeToolTip": "texture_exercise3\\main.cpp",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-02T13:04:22.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

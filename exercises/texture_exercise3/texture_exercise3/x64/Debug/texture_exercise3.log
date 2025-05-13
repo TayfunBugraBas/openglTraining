@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Bugra\source\repos\texture_exercise3\texture_exercise3\shaderssss.h(80,55): warning C4244: 'bağımsız değişken': 'float' - 'GLint' dönüşümü; veri kaybı olabilir
+  ('main.cpp' kaynak dosyası derleniyor)
+  
+  texture_exercise3.vcxproj -> C:\Users\Bugra\source\repos\texture_exercise3\x64\Debug\texture_exercise3.exe

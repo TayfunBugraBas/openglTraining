@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{884F5D16-46CF-4DFC-B384-790DED55E188}|CoordinateSystems\\CoordinateSystems.vcxproj|C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\CoordinateSystems\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{884F5D16-46CF-4DFC-B384-790DED55E188}|CoordinateSystems\\CoordinateSystems.vcxproj|solutionrelative:CoordinateSystems\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884F5D16-46CF-4DFC-B384-790DED55E188}|CoordinateSystems\\CoordinateSystems.vcxproj|C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\CoordinateSystems\\vertexShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{884F5D16-46CF-4DFC-B384-790DED55E188}|CoordinateSystems\\CoordinateSystems.vcxproj|solutionrelative:CoordinateSystems\\vertexShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884F5D16-46CF-4DFC-B384-790DED55E188}|CoordinateSystems\\CoordinateSystems.vcxproj|C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\CoordinateSystems\\fragmentShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{884F5D16-46CF-4DFC-B384-790DED55E188}|CoordinateSystems\\CoordinateSystems.vcxproj|solutionrelative:CoordinateSystems\\fragmentShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fragmentShader.s",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\CoordinateSystems\\fragmentShader.s",
+              "RelativeDocumentMoniker": "CoordinateSystems\\fragmentShader.s",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\CoordinateSystems\\fragmentShader.s",
+              "RelativeToolTip": "CoordinateSystems\\fragmentShader.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-13T17:29:55.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vertexShader.s",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\CoordinateSystems\\vertexShader.s",
+              "RelativeDocumentMoniker": "CoordinateSystems\\vertexShader.s",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\CoordinateSystems\\vertexShader.s",
+              "RelativeToolTip": "CoordinateSystems\\vertexShader.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-13T17:29:42.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\CoordinateSystems\\main.cpp",
+              "RelativeDocumentMoniker": "CoordinateSystems\\main.cpp",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\CoordinateSystems\\CoordinateSystems\\main.cpp",
+              "RelativeToolTip": "CoordinateSystems\\main.cpp",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAmwIIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-13T17:14:17.095Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|solutionrelative:texture_tutorial\\mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|solutionrelative:texture_tutorial\\fShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\shaderss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|solutionrelative:texture_tutorial\\shaderss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|solutionrelative:texture_tutorial\\fShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|solutionrelative:texture_tutorial\\mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\vShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|solutionrelative:texture_tutorial\\vShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\stb_image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F6AA438-4381-45E0-9120-3F2A5C57D97B}|texture_tutorial\\texture_tutorial.vcxproj|solutionrelative:texture_tutorial\\stb_image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "fShader.s",
               "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s",
               "RelativeDocumentMoniker": "texture_tutorial\\fShader.s",
-              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s",
-              "RelativeToolTip": "texture_tutorial\\fShader.s",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s*",
+              "RelativeToolTip": "texture_tutorial\\fShader.s*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-26T11:33:07.175Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "stb_image.cpp",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\stb_image.cpp",
+              "RelativeDocumentMoniker": "texture_tutorial\\stb_image.cpp",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\stb_image.cpp",
+              "RelativeToolTip": "texture_tutorial\\stb_image.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-28T16:52:45.721Z",
               "EditorCaption": ""
             },
             {
@@ -50,7 +67,7 @@
               "RelativeDocumentMoniker": "texture_tutorial\\shaderss.h",
               "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\shaderss.h",
               "RelativeToolTip": "texture_tutorial\\shaderss.h",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFQAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-27T16:50:53.618Z",
               "EditorCaption": ""
@@ -70,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "mian.cpp",
               "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\mian.cpp",
               "RelativeDocumentMoniker": "texture_tutorial\\mian.cpp",
               "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\mian.cpp",
               "RelativeToolTip": "texture_tutorial\\mian.cpp",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAwHUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAwCkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-26T10:42:09.588Z",
               "EditorCaption": ""

@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bugra\\source\\repos\\transformations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97276456-5CA9-4FBF-8999-F56358FE91C1}|transformations\\transformations.vcxproj|C:\\Users\\Bugra\\source\\repos\\transformations\\transformations\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97276456-5CA9-4FBF-8999-F56358FE91C1}|transformations\\transformations.vcxproj|solutionrelative:transformations\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97276456-5CA9-4FBF-8999-F56358FE91C1}|transformations\\transformations.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\vShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97276456-5CA9-4FBF-8999-F56358FE91C1}|transformations\\transformations.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97276456-5CA9-4FBF-8999-F56358FE91C1}|transformations\\transformations.vcxproj|C:\\Users\\Bugra\\source\\repos\\transformations\\transformations\\stb_image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97276456-5CA9-4FBF-8999-F56358FE91C1}|transformations\\transformations.vcxproj|solutionrelative:transformations\\stb_image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vShader.s",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\vShader.s",
+              "RelativeDocumentMoniker": "..\\texture_tutorial\\texture_tutorial\\vShader.s",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\vShader.s",
+              "RelativeToolTip": "..\\texture_tutorial\\texture_tutorial\\vShader.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-07T18:37:28.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fShader.s",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s",
+              "RelativeDocumentMoniker": "..\\texture_tutorial\\texture_tutorial\\fShader.s",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s",
+              "RelativeToolTip": "..\\texture_tutorial\\texture_tutorial\\fShader.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-07T18:22:29.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "stb_image.cpp",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\transformations\\transformations\\stb_image.cpp",
+              "RelativeDocumentMoniker": "transformations\\stb_image.cpp",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\transformations\\transformations\\stb_image.cpp",
+              "RelativeToolTip": "transformations\\stb_image.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T17:56:30.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\transformations\\transformations\\main.cpp",
+              "RelativeDocumentMoniker": "transformations\\main.cpp",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\transformations\\transformations\\main.cpp",
+              "RelativeToolTip": "transformations\\main.cpp",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T17:55:30.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

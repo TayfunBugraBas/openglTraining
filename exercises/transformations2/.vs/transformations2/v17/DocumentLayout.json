@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bugra\\source\\repos\\transformations2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA916B30-5997-419E-BB68-C2E2064B3646}|transformations2\\transformations2.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\shaderssss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA916B30-5997-419E-BB68-C2E2064B3646}|transformations2\\transformations2.vcxproj|C:\\Users\\Bugra\\source\\repos\\transformations2\\transformations2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA916B30-5997-419E-BB68-C2E2064B3646}|transformations2\\transformations2.vcxproj|solutionrelative:transformations2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA916B30-5997-419E-BB68-C2E2064B3646}|transformations2\\transformations2.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderV.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA916B30-5997-419E-BB68-C2E2064B3646}|transformations2\\transformations2.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderF.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA916B30-5997-419E-BB68-C2E2064B3646}|transformations2\\transformations2.vcxproj|C:\\Users\\Bugra\\source\\repos\\transformations2\\transformations2\\stb_image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DA916B30-5997-419E-BB68-C2E2064B3646}|transformations2\\transformations2.vcxproj|solutionrelative:transformations2\\stb_image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "shaderssss.h",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\shaderssss.h",
+              "RelativeDocumentMoniker": "..\\texture_exercise2\\texture_exercise2\\shaderssss.h",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\shaderssss.h",
+              "RelativeToolTip": "..\\texture_exercise2\\texture_exercise2\\shaderssss.h",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswEcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-10T19:34:36.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShaderF.s",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderF.s",
+              "RelativeDocumentMoniker": "..\\texture_exercise3\\texture_exercise3\\ShaderF.s",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderF.s",
+              "RelativeToolTip": "..\\texture_exercise3\\texture_exercise3\\ShaderF.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-10T19:04:31.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShaderV.s",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderV.s",
+              "RelativeDocumentMoniker": "..\\texture_exercise3\\texture_exercise3\\ShaderV.s",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_exercise3\\texture_exercise3\\ShaderV.s",
+              "RelativeToolTip": "..\\texture_exercise3\\texture_exercise3\\ShaderV.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-10T19:04:26.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "stb_image.cpp",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\transformations2\\transformations2\\stb_image.cpp",
+              "RelativeDocumentMoniker": "transformations2\\stb_image.cpp",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\transformations2\\transformations2\\stb_image.cpp",
+              "RelativeToolTip": "transformations2\\stb_image.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-10T13:41:15.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\transformations2\\transformations2\\main.cpp",
+              "RelativeDocumentMoniker": "transformations2\\main.cpp",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\transformations2\\transformations2\\main.cpp",
+              "RelativeToolTip": "transformations2\\main.cpp",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswE8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-10T13:25:39.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

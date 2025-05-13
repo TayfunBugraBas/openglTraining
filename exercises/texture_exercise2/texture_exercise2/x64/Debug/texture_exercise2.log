@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Bugra\source\repos\texture_exercise2\texture_exercise2\main.cpp(132,19): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+  texture_exercise2.vcxproj -> C:\Users\Bugra\source\repos\texture_exercise2\x64\Debug\texture_exercise2.exe

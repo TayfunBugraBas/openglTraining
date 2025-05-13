@@ -546,9 +546,9 @@ STBIDEF int   stbi_zlib_decode_noheader_buffer(char *obuffer, int olen, const ch
 
 #ifdef STB_IMAGE_IMPLEMENTATION
 
-#if defined(STBI_ONLY_JPEG) || defined(STBI_ONLY_PNG) || defined(STBI_ONLY_BMP) \
-  || defined(STBI_ONLY_TGA) || defined(STBI_ONLY_GIF) || defined(STBI_ONLY_PSD) \
-  || defined(STBI_ONLY_HDR) || defined(STBI_ONLY_PIC) || defined(STBI_ONLY_PNM) \
+#if defined(STBI_ONLY_JPEG) || defined(STBI_ONLY_PNG) || defined(STBI_ONLY_BMP) /
+  || defined(STBI_ONLY_TGA) || defined(STBI_ONLY_GIF) || defined(STBI_ONLY_PSD) /
+  || defined(STBI_ONLY_HDR) || defined(STBI_ONLY_PIC) || defined(STBI_ONLY_PNM) /
   || defined(STBI_ONLY_ZLIB)
    #ifndef STBI_ONLY_JPEG
    #define STBI_NO_JPEG
@@ -1129,8 +1129,8 @@ STBIDEF void stbi_set_flip_vertically_on_load_thread(int flag_true_if_should_fli
    stbi__vertically_flip_on_load_set = 1;
 }
 
-#define stbi__vertically_flip_on_load  (stbi__vertically_flip_on_load_set       \
-                                         ? stbi__vertically_flip_on_load_local  \
+#define stbi__vertically_flip_on_load  (stbi__vertically_flip_on_load_set       /
+                                         ? stbi__vertically_flip_on_load_local  /
                                          : stbi__vertically_flip_on_load_global)
 #endif // STBI_THREAD_LOCAL
 
@@ -2427,41 +2427,41 @@ stbi_inline static stbi_uc stbi__clamp(int x)
 #define stbi__fsh(x)  ((x) * 4096)
 
 // derived from jidctint -- DCT_ISLOW
-#define STBI__IDCT_1D(s0,s1,s2,s3,s4,s5,s6,s7) \
-   int t0,t1,t2,t3,p1,p2,p3,p4,p5,x0,x1,x2,x3; \
-   p2 = s2;                                    \
-   p3 = s6;                                    \
-   p1 = (p2+p3) * stbi__f2f(0.5411961f);       \
-   t2 = p1 + p3*stbi__f2f(-1.847759065f);      \
-   t3 = p1 + p2*stbi__f2f( 0.765366865f);      \
-   p2 = s0;                                    \
-   p3 = s4;                                    \
-   t0 = stbi__fsh(p2+p3);                      \
-   t1 = stbi__fsh(p2-p3);                      \
-   x0 = t0+t3;                                 \
-   x3 = t0-t3;                                 \
-   x1 = t1+t2;                                 \
-   x2 = t1-t2;                                 \
-   t0 = s7;                                    \
-   t1 = s5;                                    \
-   t2 = s3;                                    \
-   t3 = s1;                                    \
-   p3 = t0+t2;                                 \
-   p4 = t1+t3;                                 \
-   p1 = t0+t3;                                 \
-   p2 = t1+t2;                                 \
-   p5 = (p3+p4)*stbi__f2f( 1.175875602f);      \
-   t0 = t0*stbi__f2f( 0.298631336f);           \
-   t1 = t1*stbi__f2f( 2.053119869f);           \
-   t2 = t2*stbi__f2f( 3.072711026f);           \
-   t3 = t3*stbi__f2f( 1.501321110f);           \
-   p1 = p5 + p1*stbi__f2f(-0.899976223f);      \
-   p2 = p5 + p2*stbi__f2f(-2.562915447f);      \
-   p3 = p3*stbi__f2f(-1.961570560f);           \
-   p4 = p4*stbi__f2f(-0.390180644f);           \
-   t3 += p1+p4;                                \
-   t2 += p2+p3;                                \
-   t1 += p2+p4;                                \
+#define STBI__IDCT_1D(s0,s1,s2,s3,s4,s5,s6,s7) /
+   int t0,t1,t2,t3,p1,p2,p3,p4,p5,x0,x1,x2,x3; /
+   p2 = s2;                                    /
+   p3 = s6;                                    /
+   p1 = (p2+p3) * stbi__f2f(0.5411961f);       /
+   t2 = p1 + p3*stbi__f2f(-1.847759065f);      /
+   t3 = p1 + p2*stbi__f2f( 0.765366865f);      /
+   p2 = s0;                                    /
+   p3 = s4;                                    /
+   t0 = stbi__fsh(p2+p3);                      /
+   t1 = stbi__fsh(p2-p3);                      /
+   x0 = t0+t3;                                 /
+   x3 = t0-t3;                                 /
+   x1 = t1+t2;                                 /
+   x2 = t1-t2;                                 /
+   t0 = s7;                                    /
+   t1 = s5;                                    /
+   t2 = s3;                                    /
+   t3 = s1;                                    /
+   p3 = t0+t2;                                 /
+   p4 = t1+t3;                                 /
+   p1 = t0+t3;                                 /
+   p2 = t1+t2;                                 /
+   p5 = (p3+p4)*stbi__f2f( 1.175875602f);      /
+   t0 = t0*stbi__f2f( 0.298631336f);           /
+   t1 = t1*stbi__f2f( 2.053119869f);           /
+   t2 = t2*stbi__f2f( 3.072711026f);           /
+   t3 = t3*stbi__f2f( 1.501321110f);           /
+   p1 = p5 + p1*stbi__f2f(-0.899976223f);      /
+   p2 = p5 + p2*stbi__f2f(-2.562915447f);      /
+   p3 = p3*stbi__f2f(-1.961570560f);           /
+   p4 = p4*stbi__f2f(-0.390180644f);           /
+   t3 += p1+p4;                                /
+   t2 += p2+p3;                                /
+   t1 += p2+p4;                                /
    t0 += p1+p3;
 
 static void stbi__idct_block(stbi_uc *out, int out_stride, short data[64])
@@ -2538,78 +2538,78 @@ static void stbi__idct_simd(stbi_uc *out, int out_stride, short data[64])
 
    // out(0) = c0[even]*x + c0[odd]*y   (c0, x, y 16-bit, out 32-bit)
    // out(1) = c1[even]*x + c1[odd]*y
-   #define dct_rot(out0,out1, x,y,c0,c1) \
-      __m128i c0##lo = _mm_unpacklo_epi16((x),(y)); \
-      __m128i c0##hi = _mm_unpackhi_epi16((x),(y)); \
-      __m128i out0##_l = _mm_madd_epi16(c0##lo, c0); \
-      __m128i out0##_h = _mm_madd_epi16(c0##hi, c0); \
-      __m128i out1##_l = _mm_madd_epi16(c0##lo, c1); \
+   #define dct_rot(out0,out1, x,y,c0,c1) /
+      __m128i c0##lo = _mm_unpacklo_epi16((x),(y)); /
+      __m128i c0##hi = _mm_unpackhi_epi16((x),(y)); /
+      __m128i out0##_l = _mm_madd_epi16(c0##lo, c0); /
+      __m128i out0##_h = _mm_madd_epi16(c0##hi, c0); /
+      __m128i out1##_l = _mm_madd_epi16(c0##lo, c1); /
       __m128i out1##_h = _mm_madd_epi16(c0##hi, c1)
 
    // out = in << 12  (in 16-bit, out 32-bit)
-   #define dct_widen(out, in) \
-      __m128i out##_l = _mm_srai_epi32(_mm_unpacklo_epi16(_mm_setzero_si128(), (in)), 4); \
+   #define dct_widen(out, in) /
+      __m128i out##_l = _mm_srai_epi32(_mm_unpacklo_epi16(_mm_setzero_si128(), (in)), 4); /
       __m128i out##_h = _mm_srai_epi32(_mm_unpackhi_epi16(_mm_setzero_si128(), (in)), 4)
 
    // wide add
-   #define dct_wadd(out, a, b) \
-      __m128i out##_l = _mm_add_epi32(a##_l, b##_l); \
+   #define dct_wadd(out, a, b) /
+      __m128i out##_l = _mm_add_epi32(a##_l, b##_l); /
       __m128i out##_h = _mm_add_epi32(a##_h, b##_h)
 
    // wide sub
-   #define dct_wsub(out, a, b) \
-      __m128i out##_l = _mm_sub_epi32(a##_l, b##_l); \
+   #define dct_wsub(out, a, b) /
+      __m128i out##_l = _mm_sub_epi32(a##_l, b##_l); /
       __m128i out##_h = _mm_sub_epi32(a##_h, b##_h)
 
    // butterfly a/b, add bias, then shift by "s" and pack
-   #define dct_bfly32o(out0, out1, a,b,bias,s) \
-      { \
-         __m128i abiased_l = _mm_add_epi32(a##_l, bias); \
-         __m128i abiased_h = _mm_add_epi32(a##_h, bias); \
-         dct_wadd(sum, abiased, b); \
-         dct_wsub(dif, abiased, b); \
-         out0 = _mm_packs_epi32(_mm_srai_epi32(sum_l, s), _mm_srai_epi32(sum_h, s)); \
-         out1 = _mm_packs_epi32(_mm_srai_epi32(dif_l, s), _mm_srai_epi32(dif_h, s)); \
+   #define dct_bfly32o(out0, out1, a,b,bias,s) /
+      { /
+         __m128i abiased_l = _mm_add_epi32(a##_l, bias); /
+         __m128i abiased_h = _mm_add_epi32(a##_h, bias); /
+         dct_wadd(sum, abiased, b); /
+         dct_wsub(dif, abiased, b); /
+         out0 = _mm_packs_epi32(_mm_srai_epi32(sum_l, s), _mm_srai_epi32(sum_h, s)); /
+         out1 = _mm_packs_epi32(_mm_srai_epi32(dif_l, s), _mm_srai_epi32(dif_h, s)); /
       }
 
    // 8-bit interleave step (for transposes)
-   #define dct_interleave8(a, b) \
-      tmp = a; \
-      a = _mm_unpacklo_epi8(a, b); \
+   #define dct_interleave8(a, b) /
+      tmp = a; /
+      a = _mm_unpacklo_epi8(a, b); /
       b = _mm_unpackhi_epi8(tmp, b)
 
    // 16-bit interleave step (for transposes)
-   #define dct_interleave16(a, b) \
-      tmp = a; \
-      a = _mm_unpacklo_epi16(a, b); \
+   #define dct_interleave16(a, b) /
+      tmp = a; /
+      a = _mm_unpacklo_epi16(a, b); /
       b = _mm_unpackhi_epi16(tmp, b)
 
-   #define dct_pass(bias,shift) \
-      { \
-         /* even part */ \
-         dct_rot(t2e,t3e, row2,row6, rot0_0,rot0_1); \
-         __m128i sum04 = _mm_add_epi16(row0, row4); \
-         __m128i dif04 = _mm_sub_epi16(row0, row4); \
-         dct_widen(t0e, sum04); \
-         dct_widen(t1e, dif04); \
-         dct_wadd(x0, t0e, t3e); \
-         dct_wsub(x3, t0e, t3e); \
-         dct_wadd(x1, t1e, t2e); \
-         dct_wsub(x2, t1e, t2e); \
-         /* odd part */ \
-         dct_rot(y0o,y2o, row7,row3, rot2_0,rot2_1); \
-         dct_rot(y1o,y3o, row5,row1, rot3_0,rot3_1); \
-         __m128i sum17 = _mm_add_epi16(row1, row7); \
-         __m128i sum35 = _mm_add_epi16(row3, row5); \
-         dct_rot(y4o,y5o, sum17,sum35, rot1_0,rot1_1); \
-         dct_wadd(x4, y0o, y4o); \
-         dct_wadd(x5, y1o, y5o); \
-         dct_wadd(x6, y2o, y5o); \
-         dct_wadd(x7, y3o, y4o); \
-         dct_bfly32o(row0,row7, x0,x7,bias,shift); \
-         dct_bfly32o(row1,row6, x1,x6,bias,shift); \
-         dct_bfly32o(row2,row5, x2,x5,bias,shift); \
-         dct_bfly32o(row3,row4, x3,x4,bias,shift); \
+   #define dct_pass(bias,shift) /
+      { /
+         /* even part */ /
+         dct_rot(t2e,t3e, row2,row6, rot0_0,rot0_1); /
+         __m128i sum04 = _mm_add_epi16(row0, row4); /
+         __m128i dif04 = _mm_sub_epi16(row0, row4); /
+         dct_widen(t0e, sum04); /
+         dct_widen(t1e, dif04); /
+         dct_wadd(x0, t0e, t3e); /
+         dct_wsub(x3, t0e, t3e); /
+         dct_wadd(x1, t1e, t2e); /
+         dct_wsub(x2, t1e, t2e); /
+         /* odd part */ /
+         dct_rot(y0o,y2o, row7,row3, rot2_0,rot2_1); /
+         dct_rot(y1o,y3o, row5,row1, rot3_0,rot3_1); /
+         __m128i sum17 = _mm_add_epi16(row1, row7); /
+         __m128i sum35 = _mm_add_epi16(row3, row5); /
+         dct_rot(y4o,y5o, sum17,sum35, rot1_0,rot1_1); /
+         dct_wadd(x4, y0o, y4o); /
+         dct_wadd(x5, y1o, y5o); /
+         dct_wadd(x6, y2o, y5o); /
+         dct_wadd(x7, y3o, y4o); /
+         dct_bfly32o(row0,row7, x0,x7,bias,shift); /
+         dct_bfly32o(row1,row6, x1,x6,bias,shift); /
+         dct_bfly32o(row2,row5, x2,x5,bias,shift); /
+         dct_bfly32o(row3,row4, x3,x4,bias,shift); /
       }
 
    __m128i rot0_0 = dct_const(stbi__f2f(0.5411961f), stbi__f2f(0.5411961f) + stbi__f2f(-1.847759065f));
@@ -2725,75 +2725,75 @@ static void stbi__idct_simd(stbi_uc *out, int out_stride, short data[64])
    int16x4_t rot3_2 = vdup_n_s16(stbi__f2f( 3.072711026f));
    int16x4_t rot3_3 = vdup_n_s16(stbi__f2f( 1.501321110f));
 
-#define dct_long_mul(out, inq, coeff) \
-   int32x4_t out##_l = vmull_s16(vget_low_s16(inq), coeff); \
+#define dct_long_mul(out, inq, coeff) /
+   int32x4_t out##_l = vmull_s16(vget_low_s16(inq), coeff); /
    int32x4_t out##_h = vmull_s16(vget_high_s16(inq), coeff)
 
-#define dct_long_mac(out, acc, inq, coeff) \
-   int32x4_t out##_l = vmlal_s16(acc##_l, vget_low_s16(inq), coeff); \
+#define dct_long_mac(out, acc, inq, coeff) /
+   int32x4_t out##_l = vmlal_s16(acc##_l, vget_low_s16(inq), coeff); /
    int32x4_t out##_h = vmlal_s16(acc##_h, vget_high_s16(inq), coeff)
 
-#define dct_widen(out, inq) \
-   int32x4_t out##_l = vshll_n_s16(vget_low_s16(inq), 12); \
+#define dct_widen(out, inq) /
+   int32x4_t out##_l = vshll_n_s16(vget_low_s16(inq), 12); /
    int32x4_t out##_h = vshll_n_s16(vget_high_s16(inq), 12)
 
 // wide add
-#define dct_wadd(out, a, b) \
-   int32x4_t out##_l = vaddq_s32(a##_l, b##_l); \
+#define dct_wadd(out, a, b) /
+   int32x4_t out##_l = vaddq_s32(a##_l, b##_l); /
    int32x4_t out##_h = vaddq_s32(a##_h, b##_h)
 
 // wide sub
-#define dct_wsub(out, a, b) \
-   int32x4_t out##_l = vsubq_s32(a##_l, b##_l); \
+#define dct_wsub(out, a, b) /
+   int32x4_t out##_l = vsubq_s32(a##_l, b##_l); /
    int32x4_t out##_h = vsubq_s32(a##_h, b##_h)
 
 // butterfly a/b, then shift using "shiftop" by "s" and pack
-#define dct_bfly32o(out0,out1, a,b,shiftop,s) \
-   { \
-      dct_wadd(sum, a, b); \
-      dct_wsub(dif, a, b); \
-      out0 = vcombine_s16(shiftop(sum_l, s), shiftop(sum_h, s)); \
-      out1 = vcombine_s16(shiftop(dif_l, s), shiftop(dif_h, s)); \
+#define dct_bfly32o(out0,out1, a,b,shiftop,s) /
+   { /
+      dct_wadd(sum, a, b); /
+      dct_wsub(dif, a, b); /
+      out0 = vcombine_s16(shiftop(sum_l, s), shiftop(sum_h, s)); /
+      out1 = vcombine_s16(shiftop(dif_l, s), shiftop(dif_h, s)); /
    }
 
-#define dct_pass(shiftop, shift) \
-   { \
-      /* even part */ \
-      int16x8_t sum26 = vaddq_s16(row2, row6); \
-      dct_long_mul(p1e, sum26, rot0_0); \
-      dct_long_mac(t2e, p1e, row6, rot0_1); \
-      dct_long_mac(t3e, p1e, row2, rot0_2); \
-      int16x8_t sum04 = vaddq_s16(row0, row4); \
-      int16x8_t dif04 = vsubq_s16(row0, row4); \
-      dct_widen(t0e, sum04); \
-      dct_widen(t1e, dif04); \
-      dct_wadd(x0, t0e, t3e); \
-      dct_wsub(x3, t0e, t3e); \
-      dct_wadd(x1, t1e, t2e); \
-      dct_wsub(x2, t1e, t2e); \
-      /* odd part */ \
-      int16x8_t sum15 = vaddq_s16(row1, row5); \
-      int16x8_t sum17 = vaddq_s16(row1, row7); \
-      int16x8_t sum35 = vaddq_s16(row3, row5); \
-      int16x8_t sum37 = vaddq_s16(row3, row7); \
-      int16x8_t sumodd = vaddq_s16(sum17, sum35); \
-      dct_long_mul(p5o, sumodd, rot1_0); \
-      dct_long_mac(p1o, p5o, sum17, rot1_1); \
-      dct_long_mac(p2o, p5o, sum35, rot1_2); \
-      dct_long_mul(p3o, sum37, rot2_0); \
-      dct_long_mul(p4o, sum15, rot2_1); \
-      dct_wadd(sump13o, p1o, p3o); \
-      dct_wadd(sump24o, p2o, p4o); \
-      dct_wadd(sump23o, p2o, p3o); \
-      dct_wadd(sump14o, p1o, p4o); \
-      dct_long_mac(x4, sump13o, row7, rot3_0); \
-      dct_long_mac(x5, sump24o, row5, rot3_1); \
-      dct_long_mac(x6, sump23o, row3, rot3_2); \
-      dct_long_mac(x7, sump14o, row1, rot3_3); \
-      dct_bfly32o(row0,row7, x0,x7,shiftop,shift); \
-      dct_bfly32o(row1,row6, x1,x6,shiftop,shift); \
-      dct_bfly32o(row2,row5, x2,x5,shiftop,shift); \
-      dct_bfly32o(row3,row4, x3,x4,shiftop,shift); \
+#define dct_pass(shiftop, shift) /
+   { /
+      /* even part */ /
+      int16x8_t sum26 = vaddq_s16(row2, row6); /
+      dct_long_mul(p1e, sum26, rot0_0); /
+      dct_long_mac(t2e, p1e, row6, rot0_1); /
+      dct_long_mac(t3e, p1e, row2, rot0_2); /
+      int16x8_t sum04 = vaddq_s16(row0, row4); /
+      int16x8_t dif04 = vsubq_s16(row0, row4); /
+      dct_widen(t0e, sum04); /
+      dct_widen(t1e, dif04); /
+      dct_wadd(x0, t0e, t3e); /
+      dct_wsub(x3, t0e, t3e); /
+      dct_wadd(x1, t1e, t2e); /
+      dct_wsub(x2, t1e, t2e); /
+      /* odd part */ /
+      int16x8_t sum15 = vaddq_s16(row1, row5); /
+      int16x8_t sum17 = vaddq_s16(row1, row7); /
+      int16x8_t sum35 = vaddq_s16(row3, row5); /
+      int16x8_t sum37 = vaddq_s16(row3, row7); /
+      int16x8_t sumodd = vaddq_s16(sum17, sum35); /
+      dct_long_mul(p5o, sumodd, rot1_0); /
+      dct_long_mac(p1o, p5o, sum17, rot1_1); /
+      dct_long_mac(p2o, p5o, sum35, rot1_2); /
+      dct_long_mul(p3o, sum37, rot2_0); /
+      dct_long_mul(p4o, sum15, rot2_1); /
+      dct_wadd(sump13o, p1o, p3o); /
+      dct_wadd(sump24o, p2o, p4o); /
+      dct_wadd(sump23o, p2o, p3o); /
+      dct_wadd(sump14o, p1o, p4o); /
+      dct_long_mac(x4, sump13o, row7, rot3_0); /
+      dct_long_mac(x5, sump24o, row5, rot3_1); /
+      dct_long_mac(x6, sump23o, row3, rot3_2); /
+      dct_long_mac(x7, sump14o, row1, rot3_3); /
+      dct_bfly32o(row0,row7, x0,x7,shiftop,shift); /
+      dct_bfly32o(row1,row6, x1,x6,shiftop,shift); /
+      dct_bfly32o(row2,row5, x2,x5,shiftop,shift); /
+      dct_bfly32o(row3,row4, x3,x4,shiftop,shift); /
    }
 
    // load
@@ -3166,7 +3166,7 @@ static int stbi__process_marker(stbi__jpeg *z, int m)
       L -= 2;
 
       if (m == 0xE0 && L >= 5) { // JFIF APP0 segment
-         static const unsigned char tag[5] = {'J','F','I','F','\0'};
+         static const unsigned char tag[5] = {'J','F','I','F','/0'};
          int ok = 1;
          int i;
          for (i=0; i < 5; ++i)
@@ -3176,7 +3176,7 @@ static int stbi__process_marker(stbi__jpeg *z, int m)
          if (ok)
             z->jfif = 1;
       } else if (m == 0xEE && L >= 12) { // Adobe APP14 segment
-         static const unsigned char tag[6] = {'A','d','o','b','e','\0'};
+         static const unsigned char tag[6] = {'A','d','o','b','e','/0'};
          int ok = 1;
          int i;
          for (i=0; i < 6; ++i)
@@ -5022,11 +5022,11 @@ STBIDEF void stbi_convert_iphone_png_to_rgb_thread(int flag_true_if_should_conve
    stbi__de_iphone_flag_set = 1;
 }
 
-#define stbi__unpremultiply_on_load  (stbi__unpremultiply_on_load_set           \
-                                       ? stbi__unpremultiply_on_load_local      \
+#define stbi__unpremultiply_on_load  (stbi__unpremultiply_on_load_set           /
+                                       ? stbi__unpremultiply_on_load_local      /
                                        : stbi__unpremultiply_on_load_global)
-#define stbi__de_iphone_flag  (stbi__de_iphone_flag_set                         \
-                                ? stbi__de_iphone_flag_local                    \
+#define stbi__de_iphone_flag  (stbi__de_iphone_flag_set                         /
+                                ? stbi__de_iphone_flag_local                    /
                                 : stbi__de_iphone_flag_global)
 #endif // STBI_THREAD_LOCAL
 
@@ -6347,7 +6347,7 @@ static int stbi__pic_test_core(stbi__context *s)
 {
    int i;
 
-   if (!stbi__pic_is4(s,"\x53\x80\xF6\x34"))
+   if (!stbi__pic_is4(s,"/x53/x80/xF6/x34"))
       return 0;
 
    for(i=0;i<84;++i)
@@ -7096,10 +7096,10 @@ static int stbi__hdr_test_core(stbi__context *s, const char *signature)
 
 static int stbi__hdr_test(stbi__context* s)
 {
-   int r = stbi__hdr_test_core(s, "#?RADIANCE\n");
+   int r = stbi__hdr_test_core(s, "#?RADIANCE/n");
    stbi__rewind(s);
    if(!r) {
-       r = stbi__hdr_test_core(s, "#?RGBE\n");
+       r = stbi__hdr_test_core(s, "#?RGBE/n");
        stbi__rewind(s);
    }
    return r;
@@ -7109,15 +7109,15 @@ static int stbi__hdr_test(stbi__context* s)
 static char *stbi__hdr_gettoken(stbi__context *z, char *buffer)
 {
    int len=0;
-   char c = '\0';
+   char c = '/0';
 
    c = (char) stbi__get8(z);
 
-   while (!stbi__at_eof(z) && c != '\n') {
+   while (!stbi__at_eof(z) && c != '/n') {
       buffer[len++] = c;
       if (len == STBI__HDR_BUFLEN-1) {
          // flush to end of line
-         while (!stbi__at_eof(z) && stbi__get8(z) != '\n')
+         while (!stbi__at_eof(z) && stbi__get8(z) != '/n')
             ;
          break;
       }
@@ -7429,7 +7429,7 @@ static int stbi__pic_info(stbi__context *s, int *x, int *y, int *comp)
    if (!y) y = &dummy;
    if (!comp) comp = &dummy;
 
-   if (!stbi__pic_is4(s,"\x53\x80\xF6\x34")) {
+   if (!stbi__pic_is4(s,"/x53/x80/xF6/x34")) {
       stbi__rewind(s);
       return 0;
    }
@@ -7542,7 +7542,7 @@ static void *stbi__pnm_load(stbi__context *s, int *x, int *y, int *comp, int req
 
 static int      stbi__pnm_isspace(char c)
 {
-   return c == ' ' || c == '\t' || c == '\n' || c == '\v' || c == '\f' || c == '\r';
+   return c == ' ' || c == '/t' || c == '/n' || c == '/v' || c == '/f' || c == '/r';
 }
 
 static void     stbi__pnm_skip_whitespace(stbi__context *s, char *c)
@@ -7554,7 +7554,7 @@ static void     stbi__pnm_skip_whitespace(stbi__context *s, char *c)
       if (stbi__at_eof(s) || *c != '#')
          break;
 
-      while (!stbi__at_eof(s) && *c != '\n' && *c != '\r' )
+      while (!stbi__at_eof(s) && *c != '/n' && *c != '/r' )
          *c = (char) stbi__get8(s);
    }
 }

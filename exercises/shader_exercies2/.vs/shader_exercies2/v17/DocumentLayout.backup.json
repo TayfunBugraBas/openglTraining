@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69C894CF-5609-4BE0-8CF4-A97D188D6697}|shader_exercies2\\shader_exercies2.vcxproj|C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\vertexShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{69C894CF-5609-4BE0-8CF4-A97D188D6697}|shader_exercies2\\shader_exercies2.vcxproj|solutionrelative:shader_exercies2\\vertexShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69C894CF-5609-4BE0-8CF4-A97D188D6697}|shader_exercies2\\shader_exercies2.vcxproj|C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{69C894CF-5609-4BE0-8CF4-A97D188D6697}|shader_exercies2\\shader_exercies2.vcxproj|solutionrelative:shader_exercies2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C894CF-5609-4BE0-8CF4-A97D188D6697}|shader_exercies2\\shader_exercies2.vcxproj|C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\vertexShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{69C894CF-5609-4BE0-8CF4-A97D188D6697}|shader_exercies2\\shader_exercies2.vcxproj|solutionrelative:shader_exercies2\\vertexShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69C894CF-5609-4BE0-8CF4-A97D188D6697}|shader_exercies2\\shader_exercies2.vcxproj|C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\fragmentShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -36,20 +36,19 @@
               "RelativeDocumentMoniker": "shader_exercies2\\fragmentShader.s",
               "ToolTip": "C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\fragmentShader.s",
               "RelativeToolTip": "shader_exercies2\\fragmentShader.s",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-23T19:27:19.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T19:27:19.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "vertexShader.s",
               "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\vertexShader.s",
               "RelativeDocumentMoniker": "shader_exercies2\\vertexShader.s",
               "ToolTip": "C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\vertexShader.s",
               "RelativeToolTip": "shader_exercies2\\vertexShader.s",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-23T19:24:39.003Z",
               "EditorCaption": ""
@@ -62,20 +61,19 @@
               "RelativeDocumentMoniker": "shader_exercies2\\shaders.h",
               "ToolTip": "C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\shaders.h",
               "RelativeToolTip": "shader_exercies2\\shaders.h",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-23T18:38:36.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T18:38:36.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\main.cpp",
               "RelativeDocumentMoniker": "shader_exercies2\\main.cpp",
               "ToolTip": "C:\\Users\\Bugra\\source\\repos\\shader_exercies2\\shader_exercies2\\main.cpp",
               "RelativeToolTip": "shader_exercies2\\main.cpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAWwFYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-23T17:41:47.161Z",
               "EditorCaption": ""

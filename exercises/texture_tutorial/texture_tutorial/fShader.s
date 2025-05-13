@@ -10,5 +10,5 @@ out vec4 fragment;
 
 void main(){
 
-	fragment = mix(texture(ourTexture, TexCoord), texture(texture2,TexCoord),0.2); //burada sonda yazdýðýmýz 0.2 karýþým miktarýný belirtir
+	fragment = mix(texture(ourTexture, TexCoord), texture(texture2,TexCoord),0.2);
 }
