@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\Bugra\source\repos\CameraTime\CameraTime\main.cpp(228,22): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraTime\CameraTime\main.cpp(245,14): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraTime\CameraTime\main.cpp(246,14): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraTime\CameraTime\main.cpp(280,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraTime\CameraTime\main.cpp(281,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  CameraTime.vcxproj -> C:\Users\Bugra\source\repos\CameraTime\x64\Debug\CameraTime.exe

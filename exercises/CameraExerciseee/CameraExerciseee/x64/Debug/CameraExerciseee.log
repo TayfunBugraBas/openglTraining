@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\Bugra\source\repos\CameraExerciseee\CameraExerciseee\main.cpp(14,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraExerciseee\CameraExerciseee\main.cpp(15,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraExerciseee\CameraExerciseee\main.cpp(198,23): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraExerciseee\CameraExerciseee\main.cpp(259,12): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraExerciseee\CameraExerciseee\main.cpp(260,11): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraExerciseee\CameraExerciseee\main.cpp(264,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraExerciseee\CameraExerciseee\main.cpp(265,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraExerciseee\CameraExerciseee\main.cpp(267,10): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\CameraExerciseee\CameraExerciseee\main.cpp(268,10): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  CameraExerciseee.vcxproj -> C:\Users\Bugra\source\repos\CameraExerciseee\x64\Debug\CameraExerciseee.exe

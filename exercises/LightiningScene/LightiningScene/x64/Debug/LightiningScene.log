@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\Bugra\source\repos\LightiningScene\LightiningScene\main.cpp(14,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\LightiningScene\LightiningScene\main.cpp(15,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\LightiningScene\LightiningScene\main.cpp(278,12): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\LightiningScene\LightiningScene\main.cpp(279,11): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\LightiningScene\LightiningScene\main.cpp(283,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\LightiningScene\LightiningScene\main.cpp(284,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\LightiningScene\LightiningScene\main.cpp(286,10): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\LightiningScene\LightiningScene\main.cpp(287,10): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  LightiningScene.vcxproj -> C:\Users\Bugra\source\repos\LightiningScene\x64\Debug\LightiningScene.exe
