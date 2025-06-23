@@ -21,6 +21,10 @@ void SFBSCB(GLFWwindow* wi, int w, int h) {
 	glViewport(0, 0, w, h);
 }
 glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
+
+
+
+
 void process_Input(GLFWwindow* window);
 
 void CursorCallBack(GLFWwindow* window, double posx, double posy);
@@ -56,47 +60,47 @@ int main() {
 	ShaderClass lightCubeShader("C:/Users/Bugra/source/repos/LightiningScene/LightiningScene/lightining_cube.vs", "C:/Users/Bugra/source/repos/LightiningScene/LightiningScene/lightining_cube.fs");
 	
 	float vertices[] = {
-		  -0.5f, -0.5f, -0.5f,
-		   0.5f, -0.5f, -0.5f,
-		   0.5f,  0.5f, -0.5f,
-		   0.5f,  0.5f, -0.5f,
-		  -0.5f,  0.5f, -0.5f,
-		  -0.5f, -0.5f, -0.5f,
+	  -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	   0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	   0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	   0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	  -0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	  -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
 
-		  -0.5f, -0.5f,  0.5f,
-		   0.5f, -0.5f,  0.5f,
-		   0.5f,  0.5f,  0.5f,
-		   0.5f,  0.5f,  0.5f,
-		  -0.5f,  0.5f,  0.5f,
-		  -0.5f, -0.5f,  0.5f,
+	  -0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	   0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	   0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	   0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	  -0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	  -0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
 
-		  -0.5f,  0.5f,  0.5f,
-		  -0.5f,  0.5f, -0.5f,
-		  -0.5f, -0.5f, -0.5f,
-		  -0.5f, -0.5f, -0.5f,
-		  -0.5f, -0.5f,  0.5f,
-		  -0.5f,  0.5f,  0.5f,
+	  -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+	  -0.5f,  0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+	  -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+	  -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+	  -0.5f, -0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+	  -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
 
-		   0.5f,  0.5f,  0.5f,
-		   0.5f,  0.5f, -0.5f,
-		   0.5f, -0.5f, -0.5f,
-		   0.5f, -0.5f, -0.5f,
-		   0.5f, -0.5f,  0.5f,
-		   0.5f,  0.5f,  0.5f,
+	   0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+	   0.5f,  0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+	   0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+	   0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+	   0.5f, -0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+	   0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
 
-		  -0.5f, -0.5f, -0.5f,
-		   0.5f, -0.5f, -0.5f,
-		   0.5f, -0.5f,  0.5f,
-		   0.5f, -0.5f,  0.5f,
-		  -0.5f, -0.5f,  0.5f,
-		  -0.5f, -0.5f, -0.5f,
+	  -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+	   0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+	   0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+	   0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+	  -0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+	  -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
 
-		  -0.5f,  0.5f, -0.5f,
-		   0.5f,  0.5f, -0.5f,
-		   0.5f,  0.5f,  0.5f,
-		   0.5f,  0.5f,  0.5f,
-		  -0.5f,  0.5f,  0.5f,
-		  -0.5f,  0.5f, -0.5f,
+	  -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+	   0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+	   0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+	   0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+	  -0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+	  -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f
 	};
 	//unsigned int indices[] = {
 	//	0, 1, 3, // first triangle
@@ -131,8 +135,11 @@ int main() {
 	//glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
 
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
 	glEnableVertexAttribArray(0);
+
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+	glEnableVertexAttribArray(1);
 
 	//glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
 	//glEnableVertexAttribArray(1);
@@ -146,7 +153,7 @@ int main() {
 
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
 
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
 	glEnableVertexAttribArray(0);
 
 	/*unsigned char* data;
@@ -213,6 +220,7 @@ int main() {
 		lightingShader.Use();
 		lightingShader.setVec3("objectColor", 1.0f, 0.5f, 0.31f);
 		lightingShader.setVec3("lightColor", 1.0f, 1.0f, 1.0f);
+		lightingShader.setVec3fv("lightPos", lightPos);
 
 		// view/projection transformations
 		glm::mat4 projection = glm::perspective(glm::radians(45.0f), (float)scr_wdth / (float)scr_height, 0.1f, 100.0f);

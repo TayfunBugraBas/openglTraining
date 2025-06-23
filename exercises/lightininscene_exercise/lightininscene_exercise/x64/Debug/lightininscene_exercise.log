@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\Bugra\source\repos\lightininscene_exercise\lightininscene_exercise\main.cpp(51,22): warning C4244: 'bağımsız değişken': 'float' - 'GLsizei' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\lightininscene_exercise\lightininscene_exercise\main.cpp(51,19): warning C4244: 'bağımsız değişken': 'float' - 'GLsizei' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\lightininscene_exercise\lightininscene_exercise\main.cpp(136,22): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\lightininscene_exercise\lightininscene_exercise\main.cpp(207,11): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\lightininscene_exercise\lightininscene_exercise\main.cpp(208,11): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\lightininscene_exercise\lightininscene_exercise\main.cpp(211,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\lightininscene_exercise\lightininscene_exercise\main.cpp(212,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\lightininscene_exercise\lightininscene_exercise\main.cpp(215,10): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\lightininscene_exercise\lightininscene_exercise\main.cpp(216,10): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  lightininscene_exercise.vcxproj -> C:\Users\Bugra\source\repos\lightininscene_exercise\x64\Debug\lightininscene_exercise.exe

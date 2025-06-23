@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Bugra\\source\\repos\\texture_exercisea\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9372E0B-41E1-4C06-9E0D-3B0A0CC29E40}|texture_exercisea\\texture_exercisea.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercisea\\texture_exercisea\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E9372E0B-41E1-4C06-9E0D-3B0A0CC29E40}|texture_exercisea\\texture_exercisea.vcxproj|solutionrelative:texture_exercisea\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9372E0B-41E1-4C06-9E0D-3B0A0CC29E40}|texture_exercisea\\texture_exercisea.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercisea\\texture_exercisea\\shaderF.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{E9372E0B-41E1-4C06-9E0D-3B0A0CC29E40}|texture_exercisea\\texture_exercisea.vcxproj|solutionrelative:texture_exercisea\\shaderF.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9372E0B-41E1-4C06-9E0D-3B0A0CC29E40}|texture_exercisea\\texture_exercisea.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercisea\\texture_exercisea\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9372E0B-41E1-4C06-9E0D-3B0A0CC29E40}|texture_exercisea\\texture_exercisea.vcxproj|solutionrelative:texture_exercisea\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9372E0B-41E1-4C06-9E0D-3B0A0CC29E40}|texture_exercisea\\texture_exercisea.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercisea\\texture_exercisea\\shaderV.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "texture_exercisea\\stb_image.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-30T18:30:45.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T18:30:45.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "shaderF.s",
               "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercisea\\texture_exercisea\\shaderF.s",
               "RelativeDocumentMoniker": "texture_exercisea\\shaderF.s",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "texture_exercisea\\shaderV.s",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-30T17:58:42.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T17:58:42.325Z"
             },
             {
               "$type": "Document",
@@ -81,12 +79,11 @@
               "RelativeToolTip": "texture_exercisea\\shadersss.h",
               "ViewState": "AgIAACwAAAAAAAAAAAAAwEIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-30T17:33:17.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T17:33:17.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercisea\\texture_exercisea\\main.cpp",
               "RelativeDocumentMoniker": "texture_exercisea\\main.cpp",

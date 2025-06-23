@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2060D5CC-E38D-490A-920D-F0E619C375C9}|texture_exercise2\\texture_exercise2.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2060D5CC-E38D-490A-920D-F0E619C375C9}|texture_exercise2\\texture_exercise2.vcxproj|solutionrelative:texture_exercise2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2060D5CC-E38D-490A-920D-F0E619C375C9}|texture_exercise2\\texture_exercise2.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\fragmentShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{2060D5CC-E38D-490A-920D-F0E619C375C9}|texture_exercise2\\texture_exercise2.vcxproj|solutionrelative:texture_exercise2\\fragmentShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2060D5CC-E38D-490A-920D-F0E619C375C9}|texture_exercise2\\texture_exercise2.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2060D5CC-E38D-490A-920D-F0E619C375C9}|texture_exercise2\\texture_exercise2.vcxproj|solutionrelative:texture_exercise2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2060D5CC-E38D-490A-920D-F0E619C375C9}|texture_exercise2\\texture_exercise2.vcxproj|C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\vertexShader.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -46,15 +46,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "fragmentShader.s",
               "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\fragmentShader.s",
               "RelativeDocumentMoniker": "texture_exercise2\\fragmentShader.s",
               "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\fragmentShader.s",
               "RelativeToolTip": "texture_exercise2\\fragmentShader.s",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-28T17:31:33.447Z"
+              "WhenOpened": "2025-04-28T17:31:33.447Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,13 +83,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\main.cpp",
               "RelativeDocumentMoniker": "texture_exercise2\\main.cpp",
               "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_exercise2\\texture_exercise2\\main.cpp",
               "RelativeToolTip": "texture_exercise2\\main.cpp",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAKAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-28T16:41:05.918Z",
               "EditorCaption": ""

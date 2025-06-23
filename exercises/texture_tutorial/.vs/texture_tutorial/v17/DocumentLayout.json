@@ -38,9 +38,9 @@
               "Title": "fShader.s",
               "DocumentMoniker": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s",
               "RelativeDocumentMoniker": "texture_tutorial\\fShader.s",
-              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s*",
-              "RelativeToolTip": "texture_tutorial\\fShader.s*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Bugra\\source\\repos\\texture_tutorial\\texture_tutorial\\fShader.s",
+              "RelativeToolTip": "texture_tutorial\\fShader.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-26T11:33:07.175Z",
               "IsPinned": true,
@@ -56,8 +56,7 @@
               "RelativeToolTip": "texture_tutorial\\stb_image.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-28T16:52:45.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:52:45.721Z"
             },
             {
               "$type": "Document",
@@ -69,8 +68,7 @@
               "RelativeToolTip": "texture_tutorial\\shaderss.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-27T16:50:53.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T16:50:53.618Z"
             },
             {
               "$type": "Document",
@@ -82,8 +80,7 @@
               "RelativeToolTip": "texture_tutorial\\vShader.s",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-26T11:31:33.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T11:31:33.661Z"
             },
             {
               "$type": "Document",
@@ -95,8 +92,7 @@
               "RelativeToolTip": "texture_tutorial\\mian.cpp",
               "ViewState": "AgIAAHYAAAAAAAAAAAAAwCkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-26T10:42:09.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T10:42:09.588Z"
             }
           ]
         }

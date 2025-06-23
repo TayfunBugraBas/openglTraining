@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(17,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(18,13): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(162,26): warning C4305: 'bağımsız değişken': 'double' iken 'GLfloat' olarak kesildi
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(162,21): warning C4305: 'bağımsız değişken': 'double' iken 'GLfloat' olarak kesildi
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(162,16): warning C4305: 'bağımsız değişken': 'double' iken 'GLfloat' olarak kesildi
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(164,22): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(214,11): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(215,11): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(218,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(219,16): warning C4244: 'başlatılıyor': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(222,10): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\Bugra\source\repos\light_exercisess\light_exercisess\main.cpp(223,10): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  light_exercisess.vcxproj -> C:\Users\Bugra\source\repos\light_exercisess\x64\Debug\light_exercisess.exe
